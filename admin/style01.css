@@ -1,0 +1,319 @@
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+ }
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* ---------------------- main code index -------------------------*/
+
+.wrapper
+{
+    height: 750px;
+    width: 1490px;
+    
+}
+
+header
+{
+    height: 130px;
+    width: 1490px;
+    background-color: black;
+}
+
+section
+{
+    height:520px ;
+    width:1490px;
+    background-color: gray;
+}
+
+footer
+{
+    height: 100px;
+    width:1490px;
+    background-color: black;
+}
+.logo
+{
+    padding-left: 30px;
+    float: left;
+}
+h1
+{
+    color: white;
+}
+.logo img
+{
+    padding-left: 23px;
+}
+
+li a
+{
+    color: white;
+    text-decoration: none;
+    
+}
+
+section .sec_img
+{
+    background-image: url(images/1.jpg);
+    height: 520px;
+    width: 1490px;
+    margin-top: 0px;
+}
+.box
+{
+     height: 300px;
+    width:450px;
+    background:rgba(0,0,0,0.7); 
+    margin: 20px auto;
+    float: center;
+    color: white;
+
+}
+.box h1
+{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 5px 7px 5px blue;
+}
+
+/*-------------------------------------student login -------------------------------*/
+
+
+section .stu
+{
+    
+    height: 698px;
+    
+}
+section .log_img
+{
+    margin: 0px 0px 0px  0px;
+    height: 698px;
+    background-image: url(images/3.jpg);
+}
+
+.box1
+{
+     height: 400px;
+    width:400px;
+    margin: 20px auto;
+    background:rgba(0,0,0,0.7); 
+    float: center;
+    color: white;
+    padding: 20px;
+   
+
+
+}
+form .login
+{
+    margin:auto 100px;
+}
+input
+{
+    height: 25px;
+    width: 200px;
+}
+
+/*---------------------------------- registration page------------------------*/
+
+section .reg_img
+{
+    margin-top: 0px;
+    height: 520px;
+    background-image: url(images/4.png);
+}
+
+.box2
+{
+     height: 480px;
+    width:450px;
+    margin: 20px auto;
+    background:rgba(0,0,0,0.7); 
+    float: center;
+    color: white;
+    padding: 20px;
+
+}
+
+/*-------------------------------- book category -------------------------*/
+
+
+
+
+ 
+section .stu1
+{
+    
+    height: 698px;
+    
+}
+section .book_img1
+{
+    margin: 0px 0px 0px  0px;
+    height: 698px;
+    background-image: url(images/11.jpg);
+}
+
+
+
+.box3
+{
+     height: 580px;
+    width:800px;
+    padding-top: 40px;
+    margin: 20px auto;
+    background:rgba(0,0,0,0.7); 
+    float: center;
+    color: white;
+    padding: 20px;
+  
+}
+
+
+    div.gallary{
+        display:inline-block;
+        margin:40px;
+        padding:5px 5px 5px 5px;
+        /*border:1px solid red;*/
+        width:300;
+        align:center;
+    }
+    
+   /* div.gallary:hover{
+        border:1px solid blue;
+        font-width:bold;
+        width:150px;
+    
+    }
+    */
+    
+    div.gallary img{
+        width:100px;
+        height:100px;
+        padding:25px 25px 25px 25px;
+        
+    
+    }
+    div.gallary img:hover{
+        width:150px;
+        height:150px;
+    
+    }
+    
+    div.desc{
+        color:red;
+        text-align:center;
+        text:bold;
+        
+    
+    }
+    .gallary{
+        position: relative;
+        display:inline-block;
+        
+    }
+    
+    img{
+        width:100px;
+        height:100px;
+        display:inline-block;
+        vertical-align:text-top;
+    }
+    
